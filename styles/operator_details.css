@@ -1,0 +1,142 @@
+/* config general  */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 2;  
+    margin-top: 3%;
+}
+
+/* config general End */
+
+/* screen description box styles  */
+
+.description-box {
+    width: 88%;
+    height: 128px;
+    border-radius: 20px;
+    border: solid 1px #66abf0;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 3%;   
+}
+
+.box-avatar {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.description-box-text {
+    width: 137%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.flex {
+    display: flex;
+}
+
+.box-boton {
+    width: 30%;
+    display: flex;
+    align-items: center; 
+    
+}
+
+.ico-print {
+    width: 30%;
+}
+
+.ico-edit {
+    width: 40px;
+    margin-left: 25%;
+}
+
+/* screen description box styles end  */
+
+/* operator details and list of loaded products  */
+
+.box-list {
+    width: 88%;
+    height: 66%;
+    margin-left: 10%;
+    margin-top: 3%;
+    border: solid 1px #66abf0;
+    border-radius: 20px;  
+ }
+
+ .box-search {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4%;
+ }
+ 
+ .box-input  {
+    width: 41%;
+    height: 64px;
+ }
+
+ .input-hidden {
+    width: 89%;
+    height: 65%;
+    border: solid 1px #fff;
+    border-radius: 15px;
+    margin-top: 7%;
+ }
+
+ .box-icon {
+    width: 30%;
+    height: 43px;
+    border: solid 1px #66abf0;
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    margin-top: 2%;
+ }
+
+ .icon-search {
+    width: 30px;
+    margin-right: 4%;
+ }
+
+ .list-operators {
+    width: 91%;
+    margin-left: 4.5%;
+    margin-top: 3%;
+ }
+
+.list-header-color {
+    background-color: #66abf0;
+    color: #fff;
+}
+
+.icon-status {
+ width: 10%;
+}
+
+.icon-eye {
+    width: 27%;
+}
+
+.color-bluelight {
+    background-color: #ccedff;
+}
+
+/* operator details and list of loaded products end */

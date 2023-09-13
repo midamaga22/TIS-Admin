@@ -1,0 +1,125 @@
+/* config general  */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 2;  
+    margin-top: 3%;
+}
+
+/* config general End */
+
+/* screen description box styles  */
+
+.description-box {
+    width: 88%;
+    height: 20%;
+    border-radius: 20px;
+    border: solid 1px #66abf0;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+}
+
+.description-box-text {
+    width: 137%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.button-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+ .button-add-green {
+    width: 40%;
+}
+
+/* screen description box styles End */
+
+/* operator list box styles  */
+
+ .box-list {
+    width: 88%;
+    height: 66%;
+    margin-left: 10%;
+    margin-top: 3%;
+    border: solid 1px #66abf0;
+    border-radius: 20px;  
+ }
+
+ .box-search {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4%;
+ }
+ 
+ .box-input {
+    width: 41%;
+    height: 64px;
+ }
+
+ .input-hidden {
+    width: 89%;
+    height: 65%;
+    border: solid 1px #fff;
+    border-radius: 15px;
+    margin-top: 7%;
+ }
+
+ .box-icon {
+    width: 30%;
+    height: 43px;
+    border: solid 1px #66abf0;
+    border-radius: 15px;
+    margin-top: 2%;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+ }
+
+ .icon-search {
+    width: 30px;
+    margin-right: 4%;
+ }
+
+ .list-operators {
+    width: 91%;
+    margin-left: 4.5%;
+    margin-top: 3%;
+ }
+
+.list-header-color {
+    background-color: #66abf0;
+    color: #fff;
+}
+.icon-status {
+ width: 13%;
+}
+.icon-eye {
+    width: 27%;
+}
+.color-bluelight {
+    background-color: #ccedff;
+}
+
+/* operator list box styles End  */
