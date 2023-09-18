@@ -8,6 +8,12 @@
     display: flex;
 }
 
+.img-leff-login-container{
+    width: 120%;
+    height: 100%;
+    position: absolute; 
+}
+
 .right-login-container {
     width: 57%;
     height: 700px; 
@@ -15,6 +21,9 @@
     align-items: end;
     justify-content: center; 
     float: right;
+    background-image: url(../img/fondo-login.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
     
 }
 .login-box {
@@ -25,6 +34,9 @@
     position: absolute;
     z-index: 3; 
     margin-bottom: 10%;
+    border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+      box-shadow:1px 1px 1px 1px  #dee2e6;
 }
 
 .header-login {
