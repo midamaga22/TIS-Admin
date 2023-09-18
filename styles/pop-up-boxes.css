@@ -1,5 +1,5 @@
 
-/*---create, edit, box style---*/
+/*---create, edit, Generate id box style---*/
 
 .create-box {
     width: 30%;
@@ -101,7 +101,7 @@
     margin-top: 12%;
 }
 
-/*---Generate id box style---*/
+/*---Generate id box style specific---*/
 
 .box-identification{
     display: flex;
@@ -153,7 +153,7 @@
     width: 40%;
 }
 
-/*--- Generate id box style end ---*/
+/*--- Generate id box style  specific end ---*/
 
 /*--- product details box ---*/
 
