@@ -3,11 +3,13 @@
 
 .create-box {
     width: 30%;
-    height: 700px;
+    height: 689px;
+    border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: white;
     position: absolute;
     z-index: 3; 
+  
 }
 
 .header {
@@ -59,17 +61,15 @@
 .box-tittle {
     font-size: 1.5rem;
     font-weight: 700;
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
-    
-        width: 100%;
-        font-size: 1.5rem;
-        font-weight: 700;
-        margin-top: 2%;
-        text-align: center;
-        display: grid;
-        grid-template-rows: 1fr 1fr;  
-    
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    display: grid;
+/*grid-template-rows: 1fr 1fr;*/ 
+           
 }
 
 .box-form {
@@ -98,7 +98,8 @@
     font-weight: 500;
     font-size: 1.4rem;
     padding: 3px;
-    margin-top: 12%;
+    margin-top: 6%;
+    margin-bottom: 3%;
 }
 
 /*---Generate id box style specific---*/
@@ -165,3 +166,32 @@
     margin-top: 5%; 
     margin-bottom: 5%;
 }
+
+
+/*--- descargar inventario template estilos especificos ---*/
+
+.ico-logo-template {
+    width: 20%;
+}
+
+.box-img-download-template {
+    display: flex;
+    justify-content: center;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    height: 19%;
+}
+
+.box-img {
+    width: 33%;
+    height: 132px;
+    border: solid 1px #66ABF0;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+}
+
+
+/*--- descargar inventario template estilos especificos end---*/
+
+

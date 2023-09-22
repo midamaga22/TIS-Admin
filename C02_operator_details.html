@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Operador</title>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/operator_List.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="description-box">
+
+      <div class="box-avatar">
+        <img src="./img/User.svg" alt="">
+      </div> 
+
+      <div class="description-box-text">
+        <h5>Datos del Operador</h5> 
+        <div style="display: flex; gap: 12px;">
+          <h5>Operador:</h5>
+          <p>Pedrito Perez</p>
+          <h5>Email:</h5>
+          <p>Pedritoperez@example.com</p>
+        </div>
+      </div>
+
+      <div class="box-boton">
+        <img id="new-op" class="ico-print" src="./img/Print.svg" alt="">
+        <img class="ico-edit" src="./img/ico-edit.svg" alt="">
+      </div>
+
+    </div>
+
+    <div class="box-list">
+      <div style="margin-top: 2%; margin-bottom: 2%;">
+        <div style="display: flex; justify-content: space-between; margin-top: 2%; margin-bottom: 2%;">
+          <h5 style="margin-left: 45px;">Productos cargados por el operador</h5>
+      <div class="input-group flex-nowrap" style="margin-right: 45px; width: 37%; border: solid 1px #66ABF0; flex-direction: row-reverse;">
+          <span class="input-group-text" id="addon-wrapping"> <img src="./img/lupita.svg" alt=""> </span>
+          <input type="text" class="form-control" placeholder="Busqueda" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+      </div>
+    </div>
+
+    <table class="table list-operators" >
+      <thead class="list-header-color">
+             <tr>
+                <th scope="col" class="text-center">Codigo</th>
+                <th scope="col" class="text-center">Descripcion</th>
+                <th scope="col" class="text-center">cantidad</th>
+                <th scope="col" class="text-center">Ver</th>        
+              </tr>
+      </thead>
+
+    <tbody>
+       <tr style="text-align: center;">
+          <th scope="row" class="text-center">loremlorem</th>
+              <td class="text-center">loremlorem@gmail.com</td>
+              <td><img class="icon-status" src="./img/green.svg" alt=""></td>
+              <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
+          </tr>
+
+          <tr class="text-center color-bluelight">
+              <th scope="row" class="text-center">loremlorem</th>
+              <td class="text-center">loremlorem@gmail.com</td>
+              <td><img class="icon-status" src="./img/red.svg" alt=""></td>
+              <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
+          </tr>
+
+         <tr style="text-align: center;">
+              <th scope="row" class="text-center">loremlorem</th>
+              <td class="text-center">loremlorem@gmail.com</td>
+              <td><img class="icon-status" src="./img/green.svg" alt=""></td>
+              <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
+          </tr>
+
+          <tr class="text-center color-bluelight">
+              <th scope="row" class="text-center">loremlorem</th>
+              <td class="text-center">loremlorem@gmail.com</td>
+              <td><img class="icon-status" src="./img/red.svg" alt=""></td>
+              <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
+          </tr>
+
+          <tr style="text-align: center;">
+              <th scope="row" class="text-center">loremlorem</th>
+              <td class="text-center">loremlorem@gmail.com</td>
+              <td><img class="icon-status" src="./img/green.svg" alt=""></td>
+              <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
+          </tr>
+
+          <tr class="text-center color-bluelight">
+              <th scope="row" class="text-center">loremlorem</th>
+              <td class="text-center">loremlorem@gmail.com</td>
+              <td><img class="icon-status" src="./img/red.svg" alt=""></td>
+              <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
+           </tr>
+    </tbody>
+    </table>
+     <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+
+  </div>
+</body>
+</html>

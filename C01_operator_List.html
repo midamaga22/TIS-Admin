@@ -18,20 +18,17 @@
         </div>
         <div class="button-box">
             <img id="new-op" class="button-add-green" src="./img/adgreen.svg" alt="">
-            <p>Nuevo Operador</p>
+            <p style="margin-right: 4%;">Nuevo Operador</p>
         </div>
     </div>
 
     <div class="box-list">
-      <div class="box-search">
-        <div class="box-input ">
-            <input type="text" class="input-hidden">
+        <div style="display: flex; justify-content: end; margin-top: 2%; margin-bottom: 2%;">
+        <div class="input-group flex-nowrap" style="margin-right: 45px; width: 37%; border: solid 1px #66ABF0; flex-direction: row-reverse;">
+            <span class="input-group-text" id="addon-wrapping"> <img src="./img/lupita.svg" alt=""> </span>
+            <input type="text" class="form-control" placeholder="Busqueda" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
         </div>
-        <div class="box-icon">
-            <img class="icon-search" src="./img/lupita.svg" alt="">
-        </div>
-      </div> 
-
       <table class="table list-operators" >
         <thead class="list-header-color">
                <tr>
@@ -84,13 +81,21 @@
                 <td><img class="icon-status" src="./img/red.svg" alt=""></td>
                 <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
              </tr>
-
-            
-
       </tbody>
-      
       </table>
-
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
       </div>
   </div>
    

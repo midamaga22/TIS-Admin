@@ -15,7 +15,6 @@ body {
     justify-content: flex-end;
     position: relative;
     z-index: 2;  
-    margin-top: 3%;
 }
 
 /* config general End */
@@ -24,12 +23,12 @@ body {
 
 .description-box {
     width: 88%;
-    height: 20%;
     border-radius: 20px;
     border: solid 1px #66abf0;
     display: flex;
     margin-left: 10%;
     margin-top: 3%;
+    height: 141px;
     
 }
 
@@ -42,12 +41,13 @@ body {
 }
 
 .button-box {
-    width: 30%;
+    width: 43%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 2%;
+    margin-left: 10%;
 }
 
  .button-add-green {
@@ -72,6 +72,19 @@ body {
     justify-content: flex-end;
     margin-right: 4%;
  }
+ .box-avatar {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+}
+.box-boton {
+    width: 30%;
+    display: flex;
+    align-items: center; 
+    
+}
  
  .box-input {
     width: 41%;
@@ -96,6 +109,15 @@ body {
     display: flex;
     justify-content: end;
  }
+ .ico-print {
+    width: 30%;
+}
+
+.ico-edit {
+    width: 40px;
+    margin-left: 11%;
+
+}
 
  .icon-search {
     width: 30px;
@@ -105,7 +127,6 @@ body {
  .list-operators {
     width: 91%;
     margin-left: 4.5%;
-    margin-top: 3%;
  }
 
 .list-header-color {
