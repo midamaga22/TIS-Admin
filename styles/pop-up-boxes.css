@@ -3,7 +3,7 @@
 
 .create-box {
     width: 30%;
-    height: 689px;
+    height: 683px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: white;
@@ -38,8 +38,8 @@
 }
 
 .ico-close {
-    width: 19%;
-    height: 9%;
+    width: 12%;
+    height: 7%;
     position: absolute;
     display: flex;
     align-items: center;
@@ -82,16 +82,17 @@
 .input-form {
     width: 79%;
     height: 41px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: solid 1px #66abf0;
     padding: 14px;
     margin-top: 6%;
 }
 
+
 .create-button{
     width: 79%;
     height: 41px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: solid 1px #66abf0;
     background-color: #0073e6;
     color: white;
@@ -101,6 +102,10 @@
     margin-top: 6%;
     margin-bottom: 3%;
 }
+
+
+
+
 
 /*---Generate id box style specific---*/
 
@@ -114,6 +119,11 @@
     border: solid 1px #66ABF0; 
     background-color:#EEEEEE; 
     border-radius: 10px; width: 51%;
+}
+.box-template-app {
+    border: solid 1px #66ABF0; 
+    border-radius: 10px; width: 76%;
+    margin-top: 7%;
 }
 
 .header-template{
@@ -153,6 +163,9 @@
 .ico-Qr{
     width: 40%;
 }
+.ico-Qrapp{
+    width: 93%;
+}
 
 /*--- Generate id box style  specific end ---*/
 
@@ -170,9 +183,11 @@
 
 /*--- descargar inventario template estilos especificos ---*/
 
+
 .ico-logo-template {
     width: 20%;
 }
+
 
 .box-img-download-template {
     display: flex;
@@ -192,6 +207,81 @@
 }
 
 
+
 /*--- descargar inventario template estilos especificos end---*/
 
 
+/*--- descargar de App template estilos especificos---*/
+
+.mb{
+    margin-bottom: 0;
+}
+
+.mt{
+    margin-top: 30%;
+}
+
+
+/*--- descargar de App template estilos especificos end---*/
+
+/*--- descargar de CSV template estilos especificos ---*/
+
+.m-top_m-b_m-l{
+    margin-top: 3%;
+    margin-bottom: 3%; 
+    margin-left: 10%;
+}
+
+.mt_article {
+    margin-top: 7%;
+}
+
+.ml{
+    margin-left: 10%;
+}
+
+
+
+.options_box{
+    width: 89%;
+    display: grid; 
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    margin-left: 32px; 
+}
+
+.assign_name_box {
+    display: flex;
+    justify-content: center
+
+}
+
+.border_assign_name_box{
+    border: solid 1px #66abf0;
+     border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+       padding:4px;
+        width: 70%;
+}
+
+.icon_assign_name_box {
+    background-color: #66ABF0;
+    width: 10%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.mt_container_input{
+    margin-top: 4%;
+}
+
+.box_botton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 11%;
+}
+/*--- descargar de CSV template estilos especificos end---*/

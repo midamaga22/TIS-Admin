@@ -1,13 +1,13 @@
 
 html{
-height: 680 PX;
+height: 683 PX;;
 }
 
 /*General styles login, recover password and registration*/
 
 .leff-login-container {
-    width: 37%; 
-    height: 689px; 
+    width: 34%; 
+    height: 683px; 
     position: absolute; 
     display: flex;
 }
@@ -19,8 +19,8 @@ height: 680 PX;
 }
 
 .right-login-container {
-    width: 57%;
-    height: 689px; 
+    width: 60%;
+    height: 683px; 
     display: flex; 
     align-items: end;
     justify-content: center; 
@@ -32,6 +32,7 @@ height: 680 PX;
 }
 
 .login-box {
+    height: 478px;
     width: 40%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -47,10 +48,11 @@ height: 680 PX;
 .header-login {
     height: 15%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #0073e6;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    align-items: center;
 }
 
 .header-title {
