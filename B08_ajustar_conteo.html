@@ -23,30 +23,32 @@
              <img class="ico-logo" src="./img/conteo-ajust.svg" alt="">
         </div>
         
-        <article class="mt_article">
-            
-            <p class="ml">Este formulario te permitira establecer un conteo final en escenarios donde existen discrepancias entre los conteos establecidos por sistema.</p>
+        <article class="mt_article_1">
+            <p class="ml">Formulario para establecer conteo final en escenarios con discrepancias.</p>
         </article>
         
-                <div style=" border-radius: 15px; display: grid; grid-template-columns: 1fr 1fr; height: 14%; text-align: center; margin-bottom: 8%;" >
-                <p style="margin: 0; margin-top: 2%;">Codigo:</p>
-                <p style="margin: 0; margin-top: 2%;">75456648432</p>
-                <p style="margin: 0;">Descripcion:</p>
-                <p style="margin: 0;">taza blanca</p>
-                </div>
+
+        <form action="" class="box-form">
+            <label >Codigo</label>
+            <input type="text" class="input-form-ajuste">
+            <label >Descripcion</label>
+            <input type="text" class="input-form-ajuste">
+            <label >Conteo manual</label>
+            <input type="text" class="input-form-ajuste" >
+            <label >Comentario</label>
+            <input type="text" class="input-form-ajuste" >
+          
+           
+        </form>  
+
+
+
+       
                 
-        </div>
-         <form style="display: flex; flex-direction: column; align-items: center;">
-            <label for="" style="margin-right: 24%;">Conteo manual</label>           
-             <input type="tex" style="width: 57%; margin: 0;" class="input-form" placeholder="Ingrese modificacion">
-            <label for="" style="margin-right: 32%;">comentario
-            </label>
-          <input type="text"  style="width: 57%; height: 50px; margin-top: 2%; border: solid 1px #66abf0; padding: 14px;" placeholder="Ingrese comenntario">
-         </form>
-         <div style="display: flex; justify-content: center;">
-
-          <button class="create-button" style="margin-top: 5%;" >Registrar conteo</button>
-
+        
+       
+        <div class="box-button">
+            <button type="submit" class="create-button mb_button" >GENERAR PDF</button>
          </div>
      </section>
 </body>

@@ -67,17 +67,23 @@
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    display: grid;
-/*grid-template-rows: 1fr 1fr;*/ 
-           
+    display: grid;          
+}
+
+.mb-edit{
+    margin-bottom: 2.5rem ;
 }
 
 .box-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
+    margin-left: 10%;
 }
 
+.fw {
+    font-weight: 500;
+}
 
 .input-form {
     width: 79%;
@@ -88,6 +94,16 @@
     margin-top: 6%;
 }
 
+.box-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 88px;
+    background-color: black;
+    margin-top: 5%;
+    border-bottom-left-radius: 15px;
+}
 
 .create-button{
     width: 79%;
@@ -99,8 +115,7 @@
     font-weight: 500;
     font-size: 1.4rem;
     padding: 3px;
-    margin-top: 6%;
-    margin-bottom: 3%;
+    
 }
 
 
@@ -118,7 +133,8 @@
 .box-template{
     border: solid 1px #66ABF0; 
     background-color:#EEEEEE; 
-    border-radius: 10px; width: 51%;
+    border-radius: 10px; 
+    width: 48%;
 }
 .box-template-app {
     border: solid 1px #66ABF0; 
@@ -180,35 +196,7 @@
     margin-bottom: 5%;
 }
 
-
-/*--- descargar inventario template estilos especificos ---*/
-
-
-.ico-logo-template {
-    width: 20%;
-}
-
-
-.box-img-download-template {
-    display: flex;
-    justify-content: center;
-    margin-top: 9%;
-    margin-bottom: 9%;
-    height: 19%;
-}
-
-.box-img {
-    width: 33%;
-    height: 132px;
-    border: solid 1px #66ABF0;
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-}
-
-
-
-/*--- descargar inventario template estilos especificos end---*/
+/*--- product details box end ---*/
 
 
 /*--- descargar de App template estilos especificos---*/
@@ -221,23 +209,47 @@
     margin-top: 30%;
 }
 
-
 /*--- descargar de App template estilos especificos end---*/
 
 /*--- descargar de CSV template estilos especificos ---*/
 
-.m-top_m-b_m-l{
-    margin-top: 3%;
-    margin-bottom: 3%; 
-    margin-left: 10%;
+.ico-logo-template {
+    width: 20%;
 }
 
+.m-top_m-b_m-l{
+    margin-top: 3%;
+    margin-bottom: 2%; 
+    margin-left: 14%;
+}
+
+.line_time{
+    position: absolute;
+    margin-top: 3%;
+    width: 30px;
+    margin-left: 3%;
+}
+
+.line_time_1{
+    position: absolute;
+    width: 29px; 
+    margin-top: -52px; 
+    margin-left: 3%;
+}
+
+
 .mt_article {
-    margin-top: 7%;
+    margin-top: 18%;
+    margin-bottom: 5%;
+}
+
+.mt_article_1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .ml{
-    margin-left: 10%;
+    margin-left: 14%;
 }
 
 
@@ -246,12 +258,15 @@
     width: 89%;
     display: grid; 
     grid-template-columns: 0.3fr 0.3fr 0.3fr;
-    margin-left: 32px; 
+    margin-left: 50px; 
+    margin-top: 5%;
 }
 
 .assign_name_box {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 5%;
 
 }
 
@@ -273,8 +288,15 @@
     border-bottom-right-radius: 6px;
 }
 
+.mini_ico{
+    width: 7%;
+    position: absolute; 
+}
+
+
+
 .mt_container_input{
-    margin-top: 4%;
+    margin-top: 7%;
 }
 
 .box_botton{
@@ -285,3 +307,82 @@
     margin-top: 11%;
 }
 /*--- descargar de CSV template estilos especificos end---*/
+
+/*--- ajuste de conteo template estilos especificos ---*/
+.input-form-ajuste {
+    width: 79%;
+    height: 41px;
+    border-radius: 10px;
+    border: solid 1px #66abf0;
+    padding: 14px;
+    margin-top: 1%;
+}
+
+/*--- ajuste de conteo template estilos especificos end---*/
+
+/*--- carga de csv template estilos especificos ---*/
+
+.line_time_box{
+    position: absolute;
+    margin-left: 3%; 
+    margin-top: 3%;
+}
+
+.img_line_time{
+    width: 34px;
+    margin-top: 10%;
+    margin-left: 25%;
+
+}
+
+.ico_info_box{
+    display: flex; 
+    justify-content: end;
+    margin-right: 14%;
+    margin-bottom: 4%;
+}
+
+.ico_info{
+    width: 27px;
+    position: absolute;
+    margin-top: 2%; 
+    
+}
+
+.title_line_time{
+    margin-left: 18%;
+    margin-top: 4%;
+    font-weight: 700;
+    margin-bottom: 8%;
+
+}
+
+.text_line_time{
+    margin-top: 5%;
+    margin-left: 16%;
+    margin-right: 14%;
+    
+}
+
+.download_img{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 50%;
+    margin-left: 42%;
+}
+
+.mb_h5{
+    margin-bottom: 5%;
+}
+
+.assign_name_box_1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+
+
+/*--- carga de csv template estilos especificos end ---*/
