@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalles de Operador</title>
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/operator_List.css">
+    <link rel="stylesheet" href="./styles/main_screen.css">
 </head>
 <body>
   <div class="container">
@@ -19,7 +19,7 @@
 
       <div class="description-box-text">
         <h5>Datos del Operador</h5> 
-        <div style="display: flex; gap: 12px;">
+        <div class="opd">
           <h5>Operador:</h5>
           <p>Pedrito Perez</p>
           <h5>Email:</h5>
@@ -28,29 +28,29 @@
       </div>
 
       <div class="box-boton">
-        <img id="new-op" class="ico-print" src="./img/Print.svg" alt="">
+        <img class="ico-print" src="./img/Print.svg" alt="">
         <img class="ico-edit" src="./img/ico-edit.svg" alt="">
       </div>
 
     </div>
 
     <div class="box-list">
-      <div style="margin-top: 2%; margin-bottom: 2%;">
-        <div style="display: flex; justify-content: space-between; margin-top: 2%; margin-bottom: 2%;">
-          <h5 style="margin-left: 45px;">Productos cargados por el operador</h5>
-      <div class="input-group flex-nowrap" style="margin-right: 45px; width: 37%; border: solid 1px #66ABF0; flex-direction: row-reverse;">
+      <div >
+        <div class="list_search_box_1" >
+          <h5 class="text_serch_box">Productos cargados por el operador</h5>
+      <div class="input-group search_box">
           <span class="input-group-text" id="addon-wrapping"> <img src="./img/lupita.svg" alt=""> </span>
           <input type="text" class="form-control" placeholder="Busqueda" aria-label="Username" aria-describedby="addon-wrapping">
         </div>
       </div>
     </div>
 
-    <table class="table list-operators" >
+    <table class="table list-operator" >
       <thead class="list-header-color">
              <tr>
                 <th scope="col" class="text-center">Codigo</th>
                 <th scope="col" class="text-center">Descripcion</th>
-                <th scope="col" class="text-center">cantidad</th>
+                <th scope="col" class="text-center">Cantidad</th>
                 <th scope="col" class="text-center">Ver</th>        
               </tr>
       </thead>
@@ -59,42 +59,42 @@
        <tr style="text-align: center;">
           <th scope="row" class="text-center">loremlorem</th>
               <td class="text-center">loremlorem@gmail.com</td>
-              <td><img class="icon-status" src="./img/green.svg" alt=""></td>
+              <td>24</td>
               <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
           </tr>
 
           <tr class="text-center color-bluelight">
               <th scope="row" class="text-center">loremlorem</th>
               <td class="text-center">loremlorem@gmail.com</td>
-              <td><img class="icon-status" src="./img/red.svg" alt=""></td>
+              <td>56</td>
               <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
           </tr>
 
          <tr style="text-align: center;">
               <th scope="row" class="text-center">loremlorem</th>
               <td class="text-center">loremlorem@gmail.com</td>
-              <td><img class="icon-status" src="./img/green.svg" alt=""></td>
+              <td>65</td>
               <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
           </tr>
 
           <tr class="text-center color-bluelight">
               <th scope="row" class="text-center">loremlorem</th>
               <td class="text-center">loremlorem@gmail.com</td>
-              <td><img class="icon-status" src="./img/red.svg" alt=""></td>
+              <td>34</td>
               <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
           </tr>
 
           <tr style="text-align: center;">
               <th scope="row" class="text-center">loremlorem</th>
               <td class="text-center">loremlorem@gmail.com</td>
-              <td><img class="icon-status" src="./img/green.svg" alt=""></td>
+              <td>21</td>
               <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
           </tr>
 
           <tr class="text-center color-bluelight">
               <th scope="row" class="text-center">loremlorem</th>
               <td class="text-center">loremlorem@gmail.com</td>
-              <td><img class="icon-status" src="./img/red.svg" alt=""></td>
+              <td>14</td>
               <td><img class="icon-eye" src="./img/eye.svg" alt=""></td>
            </tr>
     </tbody>

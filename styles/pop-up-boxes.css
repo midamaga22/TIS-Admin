@@ -252,8 +252,6 @@
     margin-left: 14%;
 }
 
-
-
 .options_box{
     width: 89%;
     display: grid; 
@@ -386,3 +384,25 @@
 
 
 /*--- carga de csv template estilos especificos end ---*/
+
+/*--- B05-Detallle de producto (cargado por el operador) template estilos especificos ---*/
+
+
+.location_box{
+    width: 93%; 
+    height: 43%;
+    overflow-y: scroll;
+}
+
+.ht-B05{
+    color: white; 
+}
+
+.scrool_box{
+    margin-left: 9%;
+    margin-top: 4%;
+    width: 88%;
+    height: auto;
+}
+
+/*--- B05-Detallle de producto (cargado por el operador) template estilos especificos end---*/
