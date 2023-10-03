@@ -7,8 +7,10 @@ header{
 }
 
 .icon-bar {
-  width: 5%;
-  height: 100vh;
+  width: 60px;
+  min-width: 60px;
+  height: 683px;
+  min-height: 683px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: #0073e6;
@@ -25,7 +27,8 @@ header{
  }
 
  .logo-box{
-  margin-top: 22px; height: 10%;
+  margin-top: 22px;
+  height: 68px;
 }
 
 .icon-nav{
@@ -33,17 +36,17 @@ header{
 }
 
 .icon-box {
-  height: 10%;
+  height: 70px;
  }
 
  .notifications-icon {
-  height: 40%;
+  height: 278px;
   display: flex;
   align-items: end;
 }
 
 .settings-icon {
-  height: 15%;
+  height: 90px;
   display: flex;
 }
 
@@ -54,8 +57,8 @@ header{
 /* hyperlink box styles  */
 
 .hyperlink-description-box {
-  width: 18%;
-  height: 100vh;
+  width: 233px;
+  height: 683px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background:#333333;

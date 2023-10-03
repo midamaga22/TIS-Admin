@@ -2,7 +2,7 @@
 /*---create, edit, Generate id box style---*/
 
 .create-box {
-    width: 30%;
+    width: 377px;
     height: 683px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -13,7 +13,7 @@
 }
 
 .header {
-    height: 15%;
+    height: 89px;
     display: flex;
     justify-content: flex-end;
     background-color: #0073e6;
@@ -38,31 +38,33 @@
 }
 
 .ico-close {
-    width: 12%;
-    height: 7%;
+    width: 34px;
+    height: 34px;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.img-ico-close{
+    width: 13px;
+}
+
 .box-ico-logo {
-    height: 14%;
+    height: 89px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 21px;
 }
 
 .ico-logo{
-    width: 30%;
+    width: 89px;
 }
 
 .box-tittle {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-top: 5%;
-    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
     width: 100%;
     font-size: 1.5rem;
     font-weight: 700;
@@ -71,15 +73,17 @@
 }
 
 .mb-edit{
-    margin-bottom: 2.5rem ;
+    margin-bottom: 34px ;
 }
 
 .box-form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 10%;
+    margin-left: 40px;
 }
+
+
 
 .fw {
     font-weight: 500;
@@ -101,7 +105,7 @@
     align-items: center;
     height: 88px;
     background-color: black;
-    margin-top: 5%;
+    margin-top: 20px;
     border-bottom-left-radius: 15px;
 }
 
@@ -124,6 +128,10 @@
 
 /*---Generate id box style specific---*/
 
+.mb-p{
+    margin-bottom: 26px;
+}
+
 .box-identification{
     display: flex;
     flex-direction: column;
@@ -134,10 +142,11 @@
     border: solid 1px #66ABF0; 
     background-color:#EEEEEE; 
     border-radius: 10px; 
-    width: 48%;
+    width: 180px;
 }
 .box-template-app {
     border: solid 1px #66ABF0; 
+    border: none;
     border-radius: 10px; width: 76%;
     margin-top: 7%;
 }
@@ -152,12 +161,12 @@
 .text-header-template{
     color: aliceblue;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 6px;
 }
 
 .datos-template {
-    margin-left: 9%; 
-    margin-top: 4%;
+    margin-left: 21px; 
+    margin-top: 8px;
 }
 
 .p-title-template{
@@ -172,8 +181,8 @@
 .box-Qr{
     display: flex;
     justify-content: center;
-    margin-top: 9%;
-    margin-bottom: 9%;
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 
 .ico-Qr{
@@ -308,12 +317,12 @@
 
 /*--- ajuste de conteo template estilos especificos ---*/
 .input-form-ajuste {
-    width: 79%;
+    width: 298px;
     height: 41px;
     border-radius: 10px;
     border: solid 1px #66abf0;
     padding: 14px;
-    margin-top: 1%;
+    margin-top: 4px;
 }
 
 /*--- ajuste de conteo template estilos especificos end---*/
