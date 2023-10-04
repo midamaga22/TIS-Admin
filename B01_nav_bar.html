@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>take</title>
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/nav_bar.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,700&display=swap');
       </style>
@@ -14,60 +14,67 @@
 <body>
 <main>
   <header>
-    <section class="icon-bar" >
-      <div class="browser-icons" >
-        <div class="logo-box" >
-          <img class="icon-nav" src="./img/logo.svg" alt="logo de la aplicacion">
+    <nav class="bar" >
+      <div class="bar__icons" >
+        <div class="bar__logos" >
+          <img class="icons__nav" src="./img/logo.svg" alt="logo de la aplicacion">
         </div>
-        <div class="icon-box" >
-          <img class="icon-nav" src="./img/usuarios.svg" alt="icono de usuario">
+        <div class="icons" >
+          <img class="icons__nav" src="./img/usuarios.svg" alt="icono de usuario">
         </div>
-        <div class="icon-box" >
-          <img class="icon-nav" src="./img/cargar.svg" alt="icono de cargar archivo csv">
+        <div class="icons" >
+          <img class="icons__nav" src="./img/cargar.svg" alt="icono de cargar archivo csv">
         </div>
-        <div class="icon-box">
-          <img class="icon-nav" src="./img/lista.svg" alt="icono de lista">
+        <div class="icons">
+          <img class="icons__nav" src="./img/lista.svg" alt="icono de lista">
         </div>
-        <div class="icon-box" >
-          <img class="icon-nav" src="./img/dispositivos.svg" alt="icno de dispositivos">
+        <div class="icons" >
+          <img class="icons__nav" src="./img/descargar.svg" alt="icno de dispositivos">
         </div>
-        <div class="notifications-icon">
-          <img class="icon-nav" src="./img/notificacion.svg" alt="icono de notificaciones">
+        <div class="icons" >
+          <img class="icons__nav" src="./img/dispositivos.svg" alt="icno de dispositivos">
         </div>
-        <div class="settings-icon" > 
-         <img class="icon-nav" src="./img/configuraciones.svg" alt="icono de engranaje para configuraciones">
+        
+        <div class="icons__notifications">
+          <img class="icons__nav" src="./img/notificacion.svg" alt="icono de notificaciones">
+        </div>
+        <div class="icons__settings" > 
+         <img class="icons__nav" src="./img/configuraciones.svg" alt="icono de engranaje para configuraciones">
         </div>
       </div>
-    </section>
+    </nav>
 
-   <section class="hyperlink-description-box " >
-      <ul class="nav flex-column text-color top-cero">
+   <section class="deploy" >
+      <ul class="deploy__title nav flex-column  ">
          <li>
          <a class="nav-link" >Hola David Lares</a>
          </li>
-         <li class="nav-item txt-mrgn-top-dfine">
+         <li class="deploy__li">
          <a class="nav-link" href="#">Operadores</a>
          </li>
-         <li class="nav- txt-mrgn-link">
-         <a class="nav-link" href="#">Cargar</a>
+         <li class=" deploy__li">
+         <a class="nav-link" href="#">Cargar CSV</a>
          </li>
-         <li class="nav-item txt-mrgn-disa">
+         <li class=" deploy__li">
          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Inventario</a>
          </li>
-         <li class="nav-item txt-mrgn-top">
+         <li class=" deploy__li">
+          <a class="nav-link" href="#">Descargar inventario </a>
+          </li>
+         <li class=" deploy__li">
          <a class="nav-link" href="#">Descarga de App</a>
          </li>
-         <li class="nav-item pddg-hei">
+         <li class="blank__space">
           <a class="nav-link" ></a>
         </li>
-         <li class="nav-item ">
-         <a class="nav-link " href="#">Notificaciones</a>
+         <li >
+         <a class="nav-link" href="#">Notificaciones</a>
         </li>
-         <li class="nav-item txt-mrgn-top ">
+         <li class="deploy__li">
          <a class="nav-link" href="#">Configuracion</a>
          </li>
       </ul>
-</section>
+   </section>
 
   </header>
 

@@ -5,43 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Cuenta</title>
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
    
 </head>
 <body>
   <main>
-    <section class="leff-login-container">
-      <img class="img-leff-login-container" src="./img/img_login_leff.svg" alt="">
-    </section>
-     
-    <section class="right-login-container">
-        <div class="login-box">
-            <div class="header-login">
-                 <p class="header-title">REGISTRO DE USUARIOS</p>
-            </div>
-   
-            <div class="icon-login">
-                <img class="icon-logo" src="./img/logonegro.svg" alt="">
-            </div>
-  
-            <div class="text-center" style="margin-top: 11%;">
-               <form action="" class="form-record">
-                 <input type="Name" class="form-login-input-record" placeholder="Nombre y apellido"> 
-                 <input type="email" class="form-login-input-record" placeholder="E-mail "> 
-                 <input type="password" class="form-login-input-record" placeholder="Contraseña">       
-                 <input type="password" class="form-login-input-record" placeholder="Confirmar Contraseña">
-               </form>
-             <button class="send-button" >REGISTRAR</button>
-             <div class="footer-login" >
-              <a class="link" href="">! Ya esta registrado?</a>
-              <a class="link" href="">Registrarte </a>
-          </div>
-              
-           </div>  
-        </div>
+    <div class="login">
+      <section class="login__leff">
+        <img class="leff__image" src="./img/img_login_leff.svg" alt="">
+      </section>
        
-    </section>
+      <section class="login__right">
+          <div class="box">
+              <div class="box__header">
+                   <p class="title">REGISTRO DE USUARIOS</p>
+              </div>
+     
+              <div class="logo__login">
+                  <img class="logo__ico" src="./img/logonegro.svg" alt="">
+              </div>
+    
+              <div class="text-center" >
+                <h5 >Bienvenido por favor introduzca sus datos <br> para crear su cuenta.</h5>
+                 <form class="grid__2">
+                   <input type="Name" class="form__input form__input--record" placeholder="Nombre y apellido"> 
+                   <input type="email" class="form__input form__input--record" placeholder="E-mail "> 
+                   <input type="password" class="form__input form__input--record" placeholder="Contraseña">       
+                   <input type="password" class="form__input form__input--record" placeholder="Confirmar Contraseña">
+                 </form>
+               <button class="button" >REGISTRAR</button>
+               <div class="footBox" >
+                <a class="footBox__link" href="">! Ya esta registrado?</a>
+                <a class="footBox__link" href="">Registrarte </a>
+               </div>
+                
+             </div>  
+          </div>
+         
+      </section>
+
+    </div>
+    
   </main>
  
      </div>

@@ -5,38 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recuperar Acceso</title>
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
    
 </head>
 <body>
      <main>
-     <section class="leff-login-container">
-         <img class="img-leff-login-container" src="./img/img_login_leff.svg" alt="">
-     </section>
-     <section class="right-login-container">
-        <div class="login-box">
-           <div class="header-login">
-               <p class="header-title">RECUPERAR ACCESO </p>
+        <div class="login">
+            <section class="login__leff ">
+                <img class="leff__image" src="./img/img_login_leff.svg" alt="">
+            </section>
+           <section class="login__right">
+                <div class="box">
+                    <div class="box__header">
+                        <p class="title">RECUPERAR ACCESO </p>
+                    </div>
+                    <div class="logo__login">
+                        <img class="logo__ico" src="./img/logonegro.svg" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h5 >Para recuperar su Contraseña, por favor rellena <br>el formulario y siga las instrucciones</h5>
+                        <form >
+                            <input type="Name" class="form__input" placeholder="Email">
+                            <input type="email" class="form__input" placeholder="Contraseña ">
+                        </form>
+                    <button class="button" >ENVIAR</button>
+                    <div class="footBox">
+                        <a class="footBox__link" href="">! Ya esta registrado?</a>
+                        <a class="footBox__link" href="">Registrarte </a>
+                    </div>
+                    </div>  
            </div>
-           <div class="icon-login">
-               <img class="icon-logo" src="./img/logonegro.svg" alt="">
-           </div>
-           <div class="text-center">
-               <h5 >Para recuperar su Contraseña, por favor rellena <br>el formulario y siga las instrucciones</h5>
-               <form class="form-login">
-               <input type="Name" class="form-login-input" placeholder="Email">
-               <input type="email" class="form-login-input" placeholder="Contraseña ">
-               </form>
-               <button class="send-button" >ENVIAR</button>
-               <div class="footer-login" >
-               <a class="link" href="">! Ya esta registrado?</a>
-               <a class="link" href="">Registrarte </a>
-           </div>
-           </div>  
+        
+           </section>
+            
         </div>
-     
-    </section>
+        
      </main>
 </body>
 </html>
