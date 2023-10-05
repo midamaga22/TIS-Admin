@@ -5,48 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajustar Conteo</title>
-    <link rel="stylesheet" href="./styles/pop-up-boxes.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
    
 </head>
 <body >
 
-    <section  class="create-box">
-        <div class="header">
-           <p class="header-text">AJUSTAR CONTEO</p>
-           <div class="ico-close"> 
+    <section  class="deploy__right">
+        <div class="top">
+           <p class="title">AJUSTAR CONTEO</p>
+           <div class="close"> 
                  <img src="./img/ico-close.svg" alt=""> 
            </div>
         </div>
         
-        <div class="box-ico-logo">
-             <img class="ico-logo" src="./img/Asset_5.svg" alt="">
+        <div class="avatar">
+             <img class="avatar__img" src="./img/Asset_5.svg" alt="">
         </div>
         
-        <article class="mt_article_1">
-            <p class="ml">Formulario para establecer conteo final <br>en escenarios con discrepancias.</p>
-        </article>
+        <div class="subtitle ">
+            <h6>Formulario para establecer conteo final <br>en escenarios con discrepancias.</h6>
+        </div>
         
-
-        <form action="" class="box-form">
-            <label >Codigo</label>
-            <input type="text" class="input-form-ajuste">
-            <label >Descripcion</label>
-            <input type="text" class="input-form-ajuste">
-            <label >Conteo manual</label>
-            <input type="text" class="input-form-ajuste" >
-            <label >Comentario</label>
-            <input type="text" class="input-form-ajuste" >        
+        <form action="" class="wrapper">
+            <label class="bold" >Codigo</label>
+            <input type="text" class="form__input">
+            <label class="bold" >Descripcion</label>
+            <input type="text" class="form__input">
+            <label class="bold" >Conteo manual</label>
+            <input type="text" class="form__input" >
+            <label class="bold" >Comentario</label>
+            <input type="text" class="form__input" >        
         </form>  
 
-
-
-       
-                
-        
-       
-        <div class="box-button">
-            <button type="submit" class="create-button mb_button" >GENERAR PDF</button>
+        <div class="box__button box__button--mb">
+            <button type="submit" class="button" >GENERAR PDF</button>
          </div>
      </section>
 </body>

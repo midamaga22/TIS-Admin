@@ -5,30 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descargar CSV</title>
-    <link rel="stylesheet" href="./styles/pop-up-boxes.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
    
 </head>
 <body>
 
-    <section  class="create-box">
+    <section  class="deploy__right">
 
-        <div class="header">
-           <p class="header-text">DESCARGAR CSV</p>
-           <div class="ico-close"> 
+        <div class="top">
+           <p class="title">DESCARGAR CSV</p>
+           <div class="close"> 
                <img src="./img/ico-close.svg" alt=""> 
            </div>
         </div>
 
-        <div class="box-ico-logo">
-             <img class="ico-logo ico-logo-template"  src="./img/Asset_6.svg" alt="imagen de descarga">
+        <div class="avatar">
+             <img class="avatar__img"  src="./img/Asset_6.svg" alt="imagen de descarga">
         </div>
   
         <img class="line_time" src="./img/un-dos-un.svg" alt="" >
         
-        <h6 class="m-top_m-b_m-l" >Seleccione su inventario</h6>
+        <h6 class="title_poin" >Seleccione su inventario</h6>
         
-        <div  class="options_box">
+        <div  class="grid__3">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="checkbox1">
                         <label class="form-check-label" for="checkbox1">Ciclo 1</label>
@@ -51,28 +51,25 @@
                     </div>
         </div>
 
-        <div class="mt_container_input" >
+        <h6 class="title_poin">Nombre de documento a descargar</h6>
 
-             <h6 class="m-top_m-b_m-l">Nombre de documento a descargar</h6>
-
-             <div class="assign_name_box">
-                 <input class="border_assign_name_box" type="text" placeholder="ingrese nombre del archivo" >
-                 <div class="icon_assign_name_box">
+        <div class="assign">
+                 <input class="assign__border" type="text" placeholder="ingrese nombre del archivo" >
+                 <div class="assign__icons">
                  <img class="mini_ico" src="./img/mini-icon.svg" alt="">
                  </div>
-             </div>
-
         </div>
+
         <img class="line_time_1" src="./img/numero3.svg" alt="" >
-         <article class="mt_article">
-           
-             <h6 class="m-top_m-b_m-l">Descarga tus resultados</h6>
+         
+        <div class="box__text">
+             <h6 class="title_poin">Descarga tus resultados</h6>
              <p class="ml">Cuando estes listo, pulsa <b>Descargar tus conteos</b>, un archivo .csv <b>Protegido</b> se descargara en tu computador</p>
-         </article>
+         </div>
         </div>  
 
-        <div class="box-button">
-            <button type="submit" class="create-button mb_button" >DESCARGAR</button>
+        <div class="box__button">
+            <button type="submit" class="button" >DESCARGAR</button>
         </div>
      </section>
 </body>
