@@ -3,10 +3,10 @@ margin: 0;
 padding: 0;
 }
 main{
-    width: 1200px;
-    min-width: 1200px;
-    height: 683px;
-    min-height: 683px;
+    width: 930px;
+    min-width: 930px;
+    height: 450px;
+    min-height: 450px;
 }
 
 /* login styles specific Star*/
@@ -14,24 +14,24 @@ main{
 .login__leff {
     position: absolute; 
     display: flex;
-    width: 515px;
-    min-width: 515px; 
-    height: 683px; 
-    min-height: 683px;  
+    width: 339px;
+    min-width: 339px; 
+    height: 450px; 
+    min-height: 450px;  
 }
 .leff__image{
     position: absolute; 
-    width: 515px;   
+    width: 339px;   
 }
 .login__right {
     display: flex; 
     align-items: end;
     justify-content: center; 
     float: right;
-    width: 687px;
-    min-width: 687px;
-    height: 683px; 
-    min-height: 683px;   
+    width: 592px;
+    min-width: 592px;
+    height: 450px; 
+    min-height: 450px;   
     background-image: url(../img/pieza-login.svg);
     background-repeat: no-repeat;
     background-position: bottom;   
@@ -39,17 +39,26 @@ main{
 .box {
     position: absolute;
     z-index: 3; 
-    width: 478px;
-    min-width: 478px;
-    height: 478px;
-    max-height: 478px;
-    margin-bottom: 110px;
+    width: 45%;
+    min-width: 45%;
+    height: 72%;
+    max-height:72%;
+    margin-bottom: 7%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow:1px 1px 1px 1px  #dee2e6;
     background-color: white;
+}
+.box__header {
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    background-color: #0073e6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
 }
 .title {
     display: flex;
@@ -87,15 +96,6 @@ main{
 .bold{
     font-weight: 500;
 }
-.box__header {
-    height: 15%;
-    display: flex;
-    justify-content: center;
-    background-color: #0073e6;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    align-items: center;
-}
 .logo__login{
     display: flex;
     justify-content: center;
@@ -112,7 +112,7 @@ main{
     
 }
 .form__input--mt{
-  margin-top: 20px;
+  margin-top: 14px;
 }
 .form__input--record {
     width: 90%;
@@ -535,7 +535,6 @@ header{
 
 
 
-/*main screen styles specific end */
 
 
 
